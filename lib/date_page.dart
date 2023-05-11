@@ -84,7 +84,7 @@ class _DatePageState extends State<DatePage> {
                               decoration: const BoxDecoration(gradient: LinearGradient(colors: [Colors.red,Colors.teal],begin:AlignmentDirectional.topStart,end: AlignmentDirectional.bottomEnd)),
                               child: Center(
                                 child: MaterialButton(
-                                  color: Colors.teal,
+                                  color: Colors.lime,
                                   onPressed: () {
                                     setState(() {
                                       appointment.dates.add(DateTime.now());
