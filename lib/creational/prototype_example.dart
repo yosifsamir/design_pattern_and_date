@@ -11,6 +11,7 @@ Sure, let's say you're working on a game that involves creating a large number o
 
  */
 
+
 main(){
 
   MachineEnemy m1=MachineEnemy("Youssef", 24 , Address(10.0, 20.0));
@@ -30,6 +31,8 @@ main(){
   print("MachineEnemy m1 ==> $m1");
   print("MachineEnemy m2 ==> $m2");
   print("MachineEnemy m2 ==> $m3");
+
+
 }
 
 abstract class EnemyPrototype{
@@ -120,4 +123,7 @@ class Address{
     return 'Address{_lan: $_lan, _lat: $_lat}';
   }
 }
+
+///////////////////////////////
+
 
